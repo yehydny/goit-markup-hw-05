@@ -606,7 +606,6 @@ p {
   align-items: center;
   height: 40px;
   min-width: 165px;
-  gap: 16px;
   border-radius: 4px;
   border: none;
   background: var(--iris);
@@ -617,6 +616,11 @@ p {
   letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
+}
+
+.social-icon-item_telegram {
+  fill: var(--cloud);
+  margin-left: 16px;
 }
 
 .footer_button_text {
