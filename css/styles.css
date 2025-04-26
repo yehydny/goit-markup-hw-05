@@ -689,6 +689,8 @@ p {
   left: 50%;
   width: 408px;
   min-height: 584px;
+
+  padding: 72px 24px 24px 24px;
   border-radius: 4px;
 
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -722,7 +724,8 @@ p {
 
   cursor: pointer;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .popup_close:hover,
@@ -738,4 +741,11 @@ p {
 .icon_close:hover,
 .icon_close:focus {
   fill: var(--white);
+}
+
+.modal_paragraph {
+  font-weight: 500;
+  text-align: center;
+  color: var(--navy-blue);
+  margin-bottom: 16px;
 }
