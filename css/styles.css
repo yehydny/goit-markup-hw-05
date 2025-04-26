@@ -708,14 +708,34 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color: var(--cornflower);
   stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   width: 24px;
   height: 24px;
+  padding: 0;
 
   position: absolute;
   right: 24px;
   top: 24px;
+
+  cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.popup_close:hover,
+.popup_close:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.icon_close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon_close:hover,
+.icon_close:focus {
+  fill: var(--white);
 }
