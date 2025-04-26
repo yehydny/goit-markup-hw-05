@@ -819,3 +819,18 @@ p {
 .form_container_textarea {
   margin-bottom: 16px;
 }
+
+.popup-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
+
+.popup_text_link {
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--iris);
+}
