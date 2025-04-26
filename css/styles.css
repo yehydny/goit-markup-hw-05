@@ -703,3 +703,19 @@ p {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%) scale(1.5);
 }
+
+.popup_close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: var(--cornflower);
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  width: 24px;
+  height: 24px;
+
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}

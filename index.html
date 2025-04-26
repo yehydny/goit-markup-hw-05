@@ -527,11 +527,33 @@
 
     <div class="backdrop is-open">
       <div class="modal">
+        <button class="popup_close">
+          <svg class="icon_close" width="8px" height="8px">
+            <use href="/images/icons.svg#icon-icon_close"></use>
+          </svg>
+        </button>
+        <p>Leave your contacts and we will call you back</p>
         <form action="" name="form_connect">
-          <label for="form_call_back"
-            >Name
-            <input type="text" name="name" id="form_call_back" />
-          </label>
+          <div>
+            <label for="form_name">Name</label>
+            <input type="text" name="name" id="form_name" />
+          </div>
+          <div>
+            <label for="form_phone">Phone</label>
+            <input type="text" name="name" id="form_phone" />
+          </div>
+          <div>
+            <label for="form_email">Email</label>
+            <input type="text" name="name" id="form_email" />
+          </div>
+          <div>
+            <label for="form_comment">Name</label>
+            <textarea
+              name="comment"
+              id="form_comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
         </form>
       </div>
     </div>
