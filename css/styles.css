@@ -202,9 +202,6 @@ img {
   justify-content: center;
 }
 
-.advantages-icon {
-}
-
 .our-team-social-links {
   display: flex;
   justify-content: center;
@@ -623,15 +620,9 @@ p {
   margin-left: 16px;
 }
 
-.footer_button_text {
-}
-
 .footer_subscribe_form {
   display: flex;
   gap: 24px;
-}
-
-.footer_email {
 }
 
 .footer-email_input {
