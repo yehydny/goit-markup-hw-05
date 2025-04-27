@@ -839,6 +839,10 @@ p {
   margin-bottom: 24px;
 }
 
+.form_checkbox_wrapper input:checked .popup_span_checkbox {
+  background-color: green;
+}
+
 .popup_span_checkbox {
   display: inline-flex;
   width: 16px;
