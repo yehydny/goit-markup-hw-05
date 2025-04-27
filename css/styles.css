@@ -728,9 +728,9 @@ p {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.popup_close:hover,
-.popup_close:focus {
-  background-color: #404bbf;
+.popup_close:hover {
+  background-color: var(--ocean);
+  fill: var(--white);
   border: none;
 }
 
@@ -798,6 +798,10 @@ p {
   outline: transparent;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form_container_input_textarea:focus {
+  border-color: var(--iris);
 }
 
 .form_input_area {
