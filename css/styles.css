@@ -817,7 +817,7 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form_container_input:focus .form_icon {
+.form_container_input:hover + .form_icon {
   fill: var(--iris);
 }
 
@@ -844,8 +844,10 @@ p {
   margin-bottom: 24px;
 }
 
-.form_checkbox_wrapper input:checked .popup_span_checkbox {
+.visually-hidden:checked + .popup_label > .popup_span_checkbox {
   background-color: green;
+  /* fill: var(--cloud);
+  border: none; */
 }
 
 .popup_span_checkbox {
