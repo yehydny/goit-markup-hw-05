@@ -845,10 +845,10 @@ p {
   margin-bottom: 24px;
 }
 
-.visually-hidden:checked + .popup_label > .popup_span_checkbox {
-  background-color: green;
-  /* fill: var(--cloud);
-  border: none; */
+.form_user_checkbox:checked + .popup-label .popup_span_checkbox {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 
 .popup_span_checkbox {
@@ -866,9 +866,6 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.send-form-button {
 }
 
 .send-form-button {
